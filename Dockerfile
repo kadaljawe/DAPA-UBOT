@@ -1,7 +1,7 @@
 # Using Python Slim-Buster
 FROM daffansaa/docks:buster
 
-RUN git clone -b DAPA-UBOT https://github.com/Daffansaa/DAPA-UBOT /root/userbot
+RUN git clone -b DAPA-UBOT https://github.com/kadaljawe/DAPA-UBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
